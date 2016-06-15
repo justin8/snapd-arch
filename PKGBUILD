@@ -14,7 +14,6 @@ conflicts=()
 replaces=()
 backup=()
 options=('!strip' '!emptydirs')
-install=snapd.install
 source=("https://github.com/snapcore/$pkgname/archive/$pkgver.tar.gz" 
         'snapd.sh')
 noextract=()
